@@ -1,0 +1,336 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul {
+    
+}
+
+a{
+    text-decoration: none;
+}
+.site-header-hero {
+    display: flex;
+    flex-direction: column;
+    row-gap: 66px;
+}
+.site-header-hero {
+    margin-top: 38px;
+}
+.header-menu  {
+    align-items: center;
+    justify-content: space-between;
+}
+.site-btn {
+    color: #FFF7F0;
+    font-family: "Plus Jakarta Sans";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    width: 228px;
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    border-radius: 28px;
+    background: var(--Black, #030303);
+    transition: .5s;
+}
+.site-btn:hover {
+    border-radius: 28px;
+    background: var(--1---Galactic-Blue, #755CDE);
+}
+
+.hero-about {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    row-gap: 8px;
+}
+.hero-bio {
+    color: var(--Black, #030303);
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: "Plus Jakarta Sans";
+    font-size: 56px;
+    font-weight: 700;
+}
+.hero-text {
+    max-width: 730px;
+    width: 100%;
+    color: var(--Medium-Brown, #7A746E);
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: "Plus Jakarta Sans";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px; /* 155.556% */
+}
+
+
+
+
+.img-bio {
+    width: 354px;
+    height: 364px;
+    border-radius: 8px;
+    background: var(--1---Galactic-Blue, #755CDE);
+    
+}
+.img-bio__about {
+    width: 164px;
+    height: 182px;
+    border-radius: 8px;
+    background: var(--2---Summer-Yellow, #F6A560);
+    
+}
+.img-bio__about1 {
+    width: 164px;
+    height: 182px;
+    border-radius: 8px;
+    background: #F39E9E;
+   
+}
+.img-bio3 {
+    width: 354px;
+    height: 182px;
+    border-radius: 8px;
+    background: var(--5---Cyan, #61C4B7);
+    padding: 24px;
+}
+
+
+
+.img-bio2 {
+    width: 354px;
+    height: 158px;
+    border-radius: 8px;
+    background: var(--4---Light-Red, #EB7565);
+    padding: 24px;
+}
+.hero-menu {
+    gap: 25px;
+    column-gap: 25px;
+    row-gap: 25px;
+}
+.img-bio__1 {
+    column-gap: 25px;
+}
+.bio-hero__2 {
+    margin-top: 25px;
+    column-gap: 25px;
+}
+.img-bio__img {
+    width: 128px;
+    height: 192px;
+    padding-top: 24px;
+    margin-left: 206px;
+    
+}
+.img-bio__text {
+    max-width: 210px;
+    width: 100%;
+    color: #FFF;
+    font-family: "Plus Jakarta Sans";
+    font-size: 24px;
+    font-weight: 700;
+    padding-top: 94px;
+    padding-left:  24px;
+}
+.img-bio1__img {
+
+    padding-top: 24px;
+    margin-left: 76px;
+}
+.img-bio1__text {
+    max-width: 81.885px;
+    width: 100%;
+    color: #FFF;
+    font-family: "Plus Jakarta Sans";
+    font-size: 24px;
+    font-weight: 700;
+    padding-top: 40px;
+    padding-left: 24px;
+}
+.img-bio3__img {
+    padding-left: 150px;
+}
+.img-bio3__text {
+    max-width: 182.057px;
+    width: 100%;
+    color: #FFF;
+    font-family: "Plus Jakarta Sans";
+    font-size: 24px; 
+    font-weight: 700;
+    padding-top: 40px;
+    
+}
+.img-bio7 {
+    width: 354px;
+    height: 158px;
+    border-radius: 8px;
+    background: #552049;
+    padding: 24px;
+}
+.img-bio2__img {
+    padding-left: 176px;
+}
+.img-bio2__text {
+    color: #FFF;
+    font-family: "Plus Jakarta Sans";
+    font-size: 24px;
+    font-weight: 700;
+    padding-top: 16px;
+}
+
+.container {
+    max-width: 1110px;
+}
+.hero-img {
+    margin-top: 60px;
+    margin-bottom: 136px;
+}
+.avatar-abount {
+    display: flex;
+    flex-direction: column;
+    row-gap: 33px;
+}
+.avatar {
+    width: 445px;
+    height: 445px;
+    border-radius: 50%;
+    background: #61C4B7;
+    overflow: hidden;
+}
+.avatar-img {
+    object-fit: coverc;
+    margin-top: 20px;
+}
+.avatar-flex {
+    justify-content: space-between;
+    align-items: center;
+}
+.avatar-abount__bio {
+    max-width: 540px;
+    width: 100%;
+    color: var(--Black, #030303);
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: "Plus Jakarta Sans";
+    font-size: 40px;
+    font-weight: 700;
+}
+.avatar-abount__text {
+    max-width: 540px;
+    width: 100%;
+    color: var(--Medium-Brown, #7A746E);
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: "Plus Jakarta Sans";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+}
+.avatar-abount__btn {
+    width: 228px;
+    
+    padding-top: 14px;
+    padding-bottom: 14px;
+    text-align: center;
+    border-radius: 28px;
+    background: var(--4---Light-Red, #EB7565);
+    color: #FFF7F0;
+    font-family: "Plus Jakarta Sans";
+    font-size: 16px; 
+    font-weight: 700;
+    line-height: 28px;
+    transition: .5s;
+}
+.avatar-abount__btn:hover {
+    background: var(--2---Summer-Yellow, #F6A560);
+}
+
+
+
+
+.site-foto {
+    margin-top: 88px;
+    text-align: center;
+    margin-bottom: 144px;
+}
+.foto-img {
+    height: 445px;
+    border-radius: 10px;
+}
+.carousel-item  {
+    justify-content: space-between;
+    column-gap: 20px;
+}
+.solo { 
+    width: 540px;
+}
+.foto-work {
+    color: var(--Black, #030303);
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: "Plus Jakarta Sans";
+    font-size: 32px;
+    font-weight: 700;
+}
+.slide {
+    margin-top: 56px;
+}
+
+body {
+    padding-bottom: 50px;
+}
+
+
+.site-book {
+    margin-bottom: 74px;
+}
+.book-con {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    height: 320px;
+    border-radius: 10px;
+    background: var(--Black, #030303);
+    align-items: center;
+}
+.book-abount {
+    padding-left: 65px;
+}
+.book-bio {
+    max-width: 540px;
+    width: 100%;
+    color: var(--Light-Cream, #FFF7F0);
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: "Plus Jakarta Sans";
+    font-size: 40px;
+    font-weight: 700;
+}
+.book-text {
+    margin-top: 18px;
+    max-width: 540px;
+    width: 100%;
+    color: var(--Light-Cream, #FFF7F0);
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: "Plus Jakarta Sans";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px; 
+}
+.book-btn {
+    margin-left: 182px;
+    width: 228px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    text-align: center;
+    border-radius: 28px;
+    background: var(--4---Light-Red, #EB7565);
+    color: #FFF7F0;
+    font-family: "Plus Jakarta Sans";
+    font-size: 16px; 
+    font-weight: 700;
+    line-height: 28px;
+    transition: .5s;
+}
+.book-btn:hover {
+    background: var(--2---Summer-Yellow, #F6A560);
+}
