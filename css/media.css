@@ -14,7 +14,9 @@
         row-gap: 15px;
         margin-top: 40px;
     }
-
+    .container, .container-sm {
+        max-width: 540px;
+    }
     .avatar-abount__bio {
         max-width: 343px;
         width: 100%;
