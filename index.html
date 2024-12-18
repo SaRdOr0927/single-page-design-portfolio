@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
     <title>single-page-design-portfolio</title>
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/media.css">
     <link rel="shortcut icon" href="./img/site-logo.svg" type="image/x-icon">
 </head>
 <body>
@@ -16,43 +17,51 @@
                 <a href="!#" class="site-btn text-decoration-none">Free Consultation</a>
             </div>
         </div>
-        <div class="site-hero">
-            <div class="container hero-about">
+        <div class="site-hero"> 
+            <div class="container hero-about d-flex flex-column">
                 <h1 class="hero-bio">Design solutions made easy</h1>
                 <p class="hero-text">With over ten years of experience in various design disciplines, I’m your one-stop shop for your design needs.</p>
             </div>
             <div class="hero-img ">
-                <div class="container d-flex hero-menu ">
+                <div class="container d-flex hero-menu flex-column flex-md-row">
                     <div class="img-bio">
                         <img src="./img/1.svg" alt="1" class="img-bio__img">
                         <p class="img-bio__text">Graphic Design</p>
                     </div>
-                    <div class="bio-hero">             
-                        <div class="img-bio__1 d-flex ">
-                            <div class="img-bio__about">
-                                <img src="./img/2.svg" alt="1" class="img-bio1__img">
-                                <p class="img-bio1__text">UI/UX</p>
+                    
+                    <div class="bio-hero column-gap-4 d-flex flex-column flex-md-row">             
+                        <div class="img-bio__1 ">
+                            <div class="d-flex img-bio__1">
+                                <div class="img-bio__about">
+                                    <img src="./img/2.svg" alt="1" class="img-bio1__img">
+                                    <p class="img-bio1__text">UI/UX</p>                         
+                                </div>
+                                <div class="img-bio__about1">
+                                    <img src="./img/3.svg" alt="1" class="img-bio1__img">
+                                    <p class="img-bio1__text">Apps</p>
+                                
+                                </div> 
                             </div>
-                            <div class="img-bio__about1">
-                                <img src="./img/3.svg" alt="1" class="img-bio1__img">
-                                <p class="img-bio1__text">Apps</p>
-                            </div>
-                            <div class="img-bio3">
+                            <div >
+                                <div class="img-bio2">
+                                    <img src="./img/4.svg" alt="1" class="img-bio2__img">
+                                    <p class="img-bio2__text">Graphic Design</p>
+                                </div>   
+                            </div>                  
+                        </div>
+                        
+                        <div class=" img-bio__1 flex-column flex-md-row">
+                            <div class="img-bio3 ">
                                 <img src="./img/6.svg" alt="1" class="img-bio3__img">
                                 <p class="img-bio3__text">Photography</p>
                             </div>
-                        </div>
-
-                        <div class="d-flex bio-hero__2 ">
-                            <div class="img-bio2">
-                                <img src="./img/4.svg" alt="1" class="img-bio2__img">
-                                <p class="img-bio2__text">Graphic Design</p>
-                            </div>
+                            
                             <div class="img-bio7">
                                 <img src="./img/7.svg" alt="1" class="img-bio2__img">
                                 <p class="img-bio2__text">Graphic Design</p>
                             </div>
                         </div>
+                        
                     </div>
                 </div>
             </div>
@@ -60,7 +69,7 @@
 
     </div>
     <div class="next-menu">
-        <div class="container d-flex avatar-flex">
+        <div class="container d-flex avatar-flex flex-column flex-md-row">
             <div class="avatar">
                 <img src="./img/image-removebg-preview(563).png" alt="removebg-preview" class="avatar-img">
             </div>
@@ -74,33 +83,34 @@
     <div class="site-foto">
         <div class="container-fulid">
             <a href="!#" class="foto-work">My Work</a>
-            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div id="carouselExampleFade" class="carousel slide carousel-fade">
                 <div class="carousel-inner">
                   <div class="carousel-item active d-flex">
-                    <img src="./img/Bitmap (1).png" class="d-block foto-img" alt="Bitmap (1)">
-                    <img src="./img/Bitmap (2).png" class="d-block foto-img" alt="Bitmap (2)">
-                    <img src="./img/Bitmap (3).png" class="d-block foto-img" alt="Bitmap (3)">                
+                    <img src="./foto/1.png" class=" foto-img" alt="Bitmap (1)">
+                    <img src="./foto/2.png" class=" foto-img" alt="Bitmap (1)">
                   </div>
-                  <div class="carousel-item solo">                 
-                    <img src="./img/Bitmap (2).png" class="d-block foto-img" alt="Bitmap (2)">                    
+                  <div class="carousel-item d-flex">                 
+                    <img src="./foto/3.png" class=" foto-img" alt="Bitmap (1)">
+                    <img src="./foto/4.png" class=" foto-img" alt="Bitmap (1)">
                   </div>
-                  <div class="carousel-item">
-                    <img src="./img/Bitmap (3).png" class="d-block foto-img" alt="Bitmap (3)">                                      
+                  <div class="carousel-item d-flex">
+                    <img src="./foto/5.png" class=" foto-img" alt="Bitmap (1)"> 
+                    <img src="./foto/1.png" class=" foto-img" alt="Bitmap (1)">                                                
                   </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-              </div>
+            </div>
         </div>
     </div>
     <div class="site-book">
-        <div class="container book-con d-flex">
+        <div class="container book-con d-flex flex-column flex-md-row">
             <div class="book-abount">
                 <h1 class="book-bio">Book a call with me</h1>
                 <p class="book-text">I’d love to have a chat to see how I can help you. The best first step is for us to discuss your project during a free consultation. Then we can move forward from there.</p>
